@@ -6,6 +6,7 @@ import percent from "./../assets/percent.svg";
 import file from "./../assets/file.svg";
 
 import "./Work.css";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -53,9 +54,9 @@ const Work = () => {
         </div>
       </div>
       <div className="link-list">
-        <a className="link refer-link " href="/ReferEarn">
+        <Link className="link refer-link " to="/ReferEarn">
           Friends Who Enrolled
-        </a>
+        </Link>
         <p className="link">Terms & Conditions</p>
       </div>
     </div>

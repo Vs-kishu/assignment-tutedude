@@ -2,12 +2,13 @@ import React from "react";
 import "./Enrolled.css";
 import Card from "./components/Card";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Enrolled = () => {
   return (
     <main>
       <header>
-        <a href="/">{`UI/UX > Refer & Earn > Friends Referred`}</a>
+        <Link to="/">{`UI/UX > Refer & Earn > Friends Referred`}</Link>
       </header>
       <div className="content">
         <div className="goBack">
