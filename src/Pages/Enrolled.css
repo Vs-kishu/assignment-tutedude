@@ -1,0 +1,87 @@
+.content{
+    width: 80%
+}
+header a{
+    font-size:14px;
+    text-decoration: none;
+    margin-left: 12%;
+    font-weight: 500;
+    color: black;
+}
+.goBack{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+font-weight: 500;
+font-size: 20px;
+color: #800080;
+margin-bottom: 20px;
+}
+.enroll-header{
+    display: flex;
+    justify-content:space-between;
+}
+.your-ref-code{
+    font-weight: 400;
+        font-size: 1rem;
+        color: #800080;
+}
+.your-ref-code input{
+    box-sizing: border-box;
+    width: 153px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1.5px solid #DFDFDF;
+    text-align: center;
+    font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.75em;
+        color: #000000;
+        margin-top: 5px;
+
+}
+
+.wallet-balance{
+    width: 145px;
+    height: 85px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.wallet-balance p{
+    font-weight: 400;
+        font-size: 1rem;
+        color: #800080;
+}
+.wallet-balance span{
+font-weight: 700;
+    font-size: 1rem;
+    color: #000000;
+}
+.heading span{
+    color: #626262;
+}
+.enroll-terms{
+    margin-top:3rem;
+}
+@media (max-width: 768px) {
+    header a{
+        margin-left: 35px;
+    }
+    .wallet-balance{
+        width: 153px;
+            height: 74px;
+    }
+    .enroll-header{
+        gap: 2rem;
+    }
+}
+@media (max-width:400px) {
+    .wallet-balance p,span{
+        font-size:0.75rem
+    }
+}

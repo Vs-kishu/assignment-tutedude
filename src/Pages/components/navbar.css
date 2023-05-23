@@ -1,0 +1,53 @@
+nav,.nav-link,.nav-profile,button{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+nav{
+height: 73.03px;
+padding: 0 70px 0 30px;
+background: #FFFFFF;
+}
+.nav-link{
+    gap:1.8rem;
+}
+.nav-link p{
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: rgba(128, 0, 128, 0.25);
+}
+.nav-profile{
+    gap:4px;
+    color: #800080;
+}
+.nav-profile p{
+     color: #800080;;
+}
+.profile-btn{
+    display: none;
+    padding: 12px 25px;
+    gap: 10px;
+    width: 165px;
+    height: 48px;
+    background: #800080;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+
+@media (max-width: 800px) {
+    nav{
+        padding:40px 20px 15px 10px;
+        }
+    .nav-link {
+            display: none;
+        }
+    .profile-btn {
+        display: flex;
+    }
+        
+
+}

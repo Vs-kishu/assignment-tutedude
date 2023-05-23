@@ -1,0 +1,60 @@
+.stds-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.std-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:23px 20px;
+width: 358px;
+height: 228px;
+background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+color: #FFFFFF;
+}
+h2,p{
+    margin: 0;
+}
+.std-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enroll-courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:12px 0 20px 10px;
+
+}
+.course {
+    background: transparent;
+    box-sizing: border-box;
+        padding: 4px 9px;
+        gap: 10px;
+        border: 2px solid #EEAEAE;
+        border-radius: 20px;
+        font-weight: 400;
+            font-size: 14px;
+           
+}
+.amount {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .std-card{
+        padding:15px;
+        justify-content:space-evenly;
+    }
+    .course{
+        font-size:12px;
+    }
+}

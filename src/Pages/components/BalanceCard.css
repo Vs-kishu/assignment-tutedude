@@ -1,0 +1,95 @@
+.balance-card{
+    box-sizing: border-box;
+    width: 486px;
+    height: 188px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    padding:20px 20px 30px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.balance-card p,h1{
+    margin: 0;
+}
+.balance-details{
+    display: flex;
+    gap:62px;
+}
+
+.balance-card-header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.balance-card-header p{
+font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+}
+.balance-card-header h1{
+    font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;  
+        color: #000000;
+}
+
+
+.withdraw-btn input{
+    text-align: center;
+    background: #800080;
+        border-radius: 20px;
+        padding: 8px 16px;
+        border: none;
+        color: white;
+        display: grid;
+        margin: auto;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+}
+@media(max-width:968px) {
+    .balance-card {
+        width: 100%;
+    }
+    .balance-details{
+        display:flex;
+        justify-content:space-between;
+    }
+
+
+}
+@media(max-width:600px){
+    .balance-card{
+        padding:20px
+    }
+    
+    .balance-details{
+        width:100%;
+        height:100%;
+    }
+        .balance-card-header h1 {
+            font-size: 25px;
+            color: #000000;
+        }
+    
+}
+@media (max-width:500px){
+    .balance-details {
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+.withdraw-btn {
+       align-self: flex-end;
+       margin-top: -35px;
+    }
+}
+@media (max-width:400px){
+    .withdraw-btn input{
+        font-size:13px;
+    }
+}
